@@ -31,6 +31,6 @@ Showcase
 
 ## Core Play
 
-![video](https://github.com/Shivam-ingawale/Zodiac-Sign-App/blob/master/screenshot/video.mp4)
+![cgapp_create](https://github.com/Shivam-ingawale/Zodiac-Sign-App/blob/master/screenshot/video.gif)
 
 Although the project is complete, some parameters have not yet been tweaked to provide an optimum experience.
