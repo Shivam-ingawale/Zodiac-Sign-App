@@ -18,6 +18,6 @@ The Zodiac Sign and Zodiac Sign Traids is given in next screen.
 
 ## Core Play
 
-![image]()
+![video]()
 
 Although the project is complete, some parameters have not yet been tweaked to provide an optimum experience.
