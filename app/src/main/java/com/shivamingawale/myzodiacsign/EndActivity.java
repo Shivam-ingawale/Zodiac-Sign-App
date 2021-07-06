@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
@@ -14,16 +15,19 @@ import android.widget.TextView;
 public class EndActivity extends AppCompatActivity {
     TextView zodiac_text;
     TextView zodiac_text2;
-    Animation topanim, bottomanim;
+    Animation topanim, bottomanim, leftanim;
     Button back;
     String zodiac;
     ImageView zodiac_sign;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_end);
         topanim= AnimationUtils.loadAnimation(this,R.anim.top_animation);
+        leftanim=AnimationUtils.loadAnimation(this,R.anim.left_to_right);
         bottomanim= AnimationUtils.loadAnimation(this,R.anim.bottom_animation);
+
         Intent intent = getIntent();
         zodiac = intent.getStringExtra("Zodiac");
         zodiac_text=findViewById(R.id.textView);
@@ -91,6 +95,10 @@ public class EndActivity extends AppCompatActivity {
             zodiac_text2.setText(R.string.Sagittarius);
             zodiac_text.setText(zodiac);
         }
+        zodiac_text2.setAnimation(bottomanim);
+        zodiac_text.setAnimation(bottomanim);
+        zodiac_sign.setAnimation(topanim);
+        back.setAnimation(leftanim);
 
     }
 }

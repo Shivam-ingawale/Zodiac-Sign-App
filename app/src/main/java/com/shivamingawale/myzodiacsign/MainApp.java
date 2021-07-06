@@ -7,22 +7,31 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
 import android.widget.DatePicker;
+import android.widget.TextView;
 
-import java.time.ZonedDateTime;
 import java.util.Calendar;
 
 public class MainApp extends AppCompatActivity implements DatePickerDialog.OnDateSetListener {
     Button DateButt;
+    TextView Date;
     Intent intent;
+    Animation topanim, bottomanim, leftanim;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_main_app);
-
+        topanim= AnimationUtils.loadAnimation(this,R.anim.top_animation);
+        leftanim=AnimationUtils.loadAnimation(this,R.anim.left_to_right);
+        bottomanim= AnimationUtils.loadAnimation(this,R.anim.bottom_animation);
         DateButt=findViewById(R.id.date);
+        Date =findViewById(R.id.textView);
+        DateButt.setAnimation(bottomanim);
+        Date.setAnimation(topanim);
         DateButt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -42,6 +51,9 @@ public class MainApp extends AppCompatActivity implements DatePickerDialog.OnDat
 
         intent.putExtra("Zodiac",my_zodiac);
         startActivity(intent);
+
+
+
     }
     private String getZodiac(int day,int month){
         String zodiacSign="";

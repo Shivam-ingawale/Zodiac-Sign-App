@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MyZodiacSign</string>
+    <string name="app_name">ZodiacSign</string>
     <string name="ZodiacSign">ZodiacSign</string>
     <string name="Welcome">Welcome!</string>
     <string name="enter_birthdate">Enter BirthDate</string>
