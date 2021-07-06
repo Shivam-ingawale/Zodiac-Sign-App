@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MyZodiacSign</string>
+    <string name="ZodiacSign">ZodiacSign</string>
+    <string name="Welcome">Welcome!</string>
+    <string name="enter_birthdate">Enter BirthDate</string>
+    <string name="date">Date</string>
+    <string name="back">Back</string>
+    <string name="Taurus">Taurus Traits:Strong, dependable, sensual and creative</string>
+    <string name="Gemini">Gemini Traits: Versatile, expressive, curious and kind</string>
+    <string name="Aries">Aries Traits: Eager, dynamic, quick and competitive</string>
+    <string name="Cancer">Cancer Traits: Intuitive, sentimental, compassionate and protective</string>
+    <string name="Leo">Leo Traits: Dramatic, outgoing, fiery and self-assured</string>
+    <string name="Virgo">Virgo Traits: Practical, loyal, gentle and analytical</string>
+    <string name="Libra">Libra Traits: Social, fair-minded, diplomatic and gracious</string>
+    <string name="Scorpio">Scorpio Traits: Passionate, stubborn, resourceful and brave</string>
+    <string name="Sagittarius">Sagittarius Traits: Extroverted, optimistic, funny and generous</string>
+    <string name="Capricorn">Capricorn Traits: Serious, independent, disciplined and tenacious</string>
+    <string name="Aquarius">Aquarius Traits: Deep, imaginative, original and uncompromising</string>
+    <string name="Pisces">Pisces Traits: Affectionate, empathetic, wise and artistic</string>
+    <string name="hey">hey</string>
+
+</resources>
