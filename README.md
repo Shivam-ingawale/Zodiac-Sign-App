@@ -10,10 +10,10 @@ Extremely Easy to Use App. Just click on the Calender Button and inout your birt
 Just click on the Calender Button and inout your birthdate. 
 The Zodiac Sign and Zodiac Sign Traids is given in next screen.
 
-![image]()
-![image]()
-![image]()
-![image]()
+![image](https://github.com/Shivam-ingawale/Zodiac-Sign-App/blob/master/screenshot/screenshot%201.jpeg)
+![image](https://github.com/Shivam-ingawale/Zodiac-Sign-App/blob/master/screenshot/screenshot%202.jpeg)
+![image](https://github.com/Shivam-ingawale/Zodiac-Sign-App/blob/master/screenshot/screenshot%203.jpeg)
+![image](https://github.com/Shivam-ingawale/Zodiac-Sign-App/blob/master/screenshot/screenshot%204.jpeg)
 
 
 ## Core Play
