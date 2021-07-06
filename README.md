@@ -1,4 +1,8 @@
-# Zodiac-Sign-App
+<h1 align="center">
+  <img src="https://github.com/Shivam-ingawale/Zodiac-Sign-App/blob/master/screenshot/Group%205.png" width="224px"/><br/>
+  Zodiac-Sign-App
+</h1>
+
 ## Zodiac Sign
   Zodiac Sign is an app which determine the Zodiac Sign based on your Birthdate.
 ## Intro
