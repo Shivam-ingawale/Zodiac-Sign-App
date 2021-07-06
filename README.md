@@ -18,6 +18,6 @@ The Zodiac Sign and Zodiac Sign Traids is given in next screen.
 
 ## Core Play
 
-![video]()
+![video](https://github.com/Shivam-ingawale/Zodiac-Sign-App/blob/master/screenshot/video.mp4)
 
 Although the project is complete, some parameters have not yet been tweaked to provide an optimum experience.
