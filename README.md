@@ -4,7 +4,9 @@
 </h1>
 
 ## Zodiac Sign
-  Zodiac Sign is an app which determine the Zodiac Sign based on your Birthdate.
+  Zodiac Sign is an app which determine the Zodiac Sign based on your Birthdate. Android Application which takes date of birth as user input in one screen and
+displays their respective zodiac sign with some information about it.
+With Good UI and extra implementation.
 <h1 align="center">
   <img src="https://github.com/Shivam-ingawale/Zodiac-Sign-App/blob/master/screenshot/video.gif"  width="240" />
 </h1>
