@@ -22,10 +22,7 @@ Just click on the Calender Button and inout your birthdate.
 The Zodiac Sign and Zodiac Sign Traids is given in next screen.
 
 ## Showcase
-
-<h1 align="center">
-  <center>
-    <table>
+    <table align="center">
       <tr>
         <td><img width="120" alt="chdemko" src="https://github.com/Shivam-ingawale/Zodiac-Sign-App/blob/master/screenshot/screenshot%201.jpeg"></a></td>
         <td><img width="120" alt="chendaniely" src="https://github.com/Shivam-ingawale/Zodiac-Sign-App/blob/master/screenshot/screenshot%202.jpeg"></a></td>
@@ -35,8 +32,6 @@ The Zodiac Sign and Zodiac Sign Traids is given in next screen.
         <td><img width="120" alt="nordes" src="https://github.com/Shivam-ingawale/Zodiac-Sign-App/blob/master/screenshot/screenshot%204.jpeg"></a></td>
       </tr>
     </table>
-  </center>
-</h1>
 
 ## Core Play
 <h1 align="center">
